@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ITS WORKING</title>
+	<style type="text/css">
+		.welcome {
+			color: yellow;
+			position: absolute;
+			left: 33%;
+			top: 20px;
+			font-family: "cyr_Beast vs SpreadTall";
+			font-size: 60px;
+		}
+		.about {
+			position: absolute;
+			left: 40px;
+			right: 40px;
+			top: 100px;
+			color: yellow;
+			font-family: "cyr_Beast vs SpreadTall";
+			font-size: 30px;
+
+		}
+		.code {
+			color: yellow;
+			position: absolute;
+			top: 400px;
+		}
+
+		a {
+	color: yellow;
+	cursor: pointer;
+}
+a:hover {
+	color: yellow;
+	cursor: pointer;
+}
+a:visited {
+	color: yellow;
+	cursor: pointer;
+}
+.download {
+	font-size: 20px;
+}
+	</style>
+}
+</head>
+<body>
+<div class = "welcome">WELCOME TO STORY 1</div>
+<div class = about>So... It was in 2019. I did not know, who i am and whom i would to be. Before a lot of thinking i made a decision. - I must to be game developer!
+ But i didnt know how can i do this. I serfered interbet in hope to find some infomation. And i find it! - C++, I thought...
+  I started to learning this language with Learning C++ through game programming book by Douson Maiky. Very intresting book for a jonior programmer!
+
+So, now is 13.03.2019 and i wish to be game developer. <br>Im have a bad english, but i working on it<br><br>
+In the process reading this book, I realized that the best option to show my progress would be to write my portfolio. </div>
+
+
+
+
+<div class="code">//Welcome to "guess the number" game<br>
+#include "pch.h"<br>
+#include &laquo;iostream&raquo;<br>
+#include &laquo;cstdlib&raquo;<br>
+#include &laquo;ctime&raquo;<br>
+<br>
+int main()<br>
+{<br>
+&nbsp;&nbsp;	using namespace std;<br>
+&nbsp;&nbsp;	cout << "\t\tWelcome to Quess the nnumber game!" << endl;<br>
+&nbsp;&nbsp;	srand(static_cast&laquo;unsigned int&raquo;(time(0)));<br>
+<br>
+&nbsp;&nbsp;	int SecretNumber = rand() % 100 + 1;<br>
+&nbsp;&nbsp;	cout << SecretNumber << endl;<br>
+&nbsp;&nbsp;	int tries = 0;<br>
+&nbsp;&nbsp;	int userNumber = 0<br>;
+<br>
+&nbsp;&nbsp;	do {<br>
+&nbsp;&nbsp;&nbsp;		cout << "Enter the number: ";<br>
+&nbsp;&nbsp;&nbsp;		cin >> userNumber;<br>
+<br>
+&nbsp;&nbsp;&nbsp;		if (cin.fail())<br>
+		{<br>
+&nbsp;&nbsp;&nbsp;&nbsp;			cout << "Invalid input\n";<br>
+&nbsp;&nbsp;&nbsp;&nbsp;			cin.clear();<br>
+&nbsp;&nbsp;&nbsp;&nbsp;			cin.ignore(999, '\n');<br>
+&nbsp;&nbsp;&nbsp;&nbsp;			continue;<br>
+		}<br>
+
+<br>
+&nbsp;&nbsp;&nbsp;		if (SecretNumber - userNumber >=16)<br>
+		{<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;		cout << "It is too low\n";<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;		tries++;<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;		continue;<br>
+		}<br>
+	&nbsp;&nbsp;&nbsp;	else if (SecretNumber - userNumber <=15 && SecretNumber - userNumber > 0)<br>
+		{<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	cout << "It is so nearly, but low, try again\n";<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	tries++;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	continue;<br>
+		}<br>
+		&nbsp;&nbsp;&nbsp;else if (SecretNumber - userNumber <= -16)<br>
+		{<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	cout << "It is too much, try again\n";<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	tries++;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	continue;<br>
+		}<br>
+		&nbsp;&nbsp;&nbsp;else if (SecretNumber - userNumber >= -15 && SecretNumber - userNumber < 0)<br>
+		{<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	cout << "It is so nearly, but much\n";<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	tries++;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	continue;<br>
+		}<br>
+		&nbsp;&nbsp;&nbsp;else if (userNumber == SecretNumber) {<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	tries++;<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;	cout << "you did it by " << tries << " tries!";<br>
+			&nbsp;&nbsp;&nbsp;&nbsp;break;<br>
+		}<br>
+	}<br>
+	&nbsp;&nbsp;while (userNumber != SecretNumber);<br>
+}<br>
+</code>
+<br>
+<span class="download"> You can download source code by this <a href="source/GuessTheNumber.rar">link</a></span></div>
+
+
+
+</body>
+</html>

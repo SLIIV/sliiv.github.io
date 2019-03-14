@@ -1,3 +1,518 @@
+@media screen and (min-width: 2701px)
+{
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 3600px auto;
+}
+.top_red_back{
+	width: 423px;
+	height: 232px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 357px;
+	height: 1815px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 227px;
+	height: 53px;
+	position: absolute;
+	top: 37px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 336px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 35px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 90px;
+	left: 10px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 28px;
+	position: absolute;
+	top: 124px;
+	left: 245px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 301px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 365px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 425px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 272px;
+	height: 47px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 36px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 1679px;
+	left: 20px;
+}
+}
+
+
+@media screen and (max-width: 2700px) and (min-width: 2501px)
+{
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 2700px auto;
+}
+.top_red_back{
+	width: 393px;
+	height: 192px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 307px;
+	height: 1513px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 197px;
+	height: 46px;
+	position: absolute;
+	top: 37px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 336px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 33px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 86px;
+	left: 10px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 26px;
+	position: absolute;
+	top: 114px;
+	left: 230px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 301px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 365px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 425px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 262px;
+	height: 47px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 1399px;
+	left: 20px;
+}
+}
+
+
+
+@media screen and (max-width: 2500px) and (min-width: 2201px)
+{
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 2300px auto;
+}
+.top_red_back{
+	width: 393px;
+	height: 192px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 307px;
+	height: 1301px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 197px;
+	height: 46px;
+	position: absolute;
+	top: 37px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 336px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 33px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 86px;
+	left: 10px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 26px;
+	position: absolute;
+	top: 114px;
+	left: 230px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 301px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 365px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 425px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 292px;
+	height: 47px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 1229px;
+	left: 20px;
+}
+}
+
+
+@media screen and (max-width: 2200px) and (min-width: 2001px)
+{
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 2200px auto;
+}
+.top_red_back{
+	width: 393px;
+	height: 192px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 307px;
+	height: 1135px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 197px;
+	height: 46px;
+	position: absolute;
+	top: 37px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 336px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 33px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 86px;
+	left: 10px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 26px;
+	position: absolute;
+	top: 114px;
+	left: 230px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 301px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 365px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 55px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 48px;
+	font-weight: 400;
+	position: absolute;
+	top: 425px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 292px;
+	height: 47px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 1059px;
+	left: 20px;
+}
+}
+
+
+
+
 @media screen and (max-width: 2000px) and (min-width: 1801px)
 {
 .bodka {
@@ -371,7 +886,7 @@
 	height: 47px;
 	color: #ffffff;
 	font-family: "cyr_Beast vs SpreadTall";
-	font-size: 24px;
+	font-size: 22px;
 	font-weight: 400;
 	text-transform: uppercase;
 	position: absolute;
@@ -766,4 +1281,259 @@
 	left: 10px;
 }
 }
+@media screen and (max-width: 1199px) and (min-width: 1100px)
+{
+
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 1300px auto;
+}
+.top_red_back{
+	width: 293px;
+	height: 112px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 227px;
+	height: 651px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 138px;
+	height: 29px;
+	position: absolute;
+	top: 30px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 302px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 20px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 56px;
+	left: 15px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 16px;
+	position: absolute;
+	top: 73px;
+	left: 148px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 221px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 270px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 320px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 220px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 610px;
+	left: 10px;
+}
+}
+
+@media screen and (max-width: 1099px)
+{
+
+.bodka {
+	background: #ffffff url('../images/background.png');
+	background-size: 1070px auto;
+}
+.top_red_back{
+	width: 253px;
+	height: 102px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.red_back {
+	width: 227px;
+	height: 605px;
+	border: 1px solid #000000;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.extra {
+	width: 127px;
+	height: 24px;
+	position: absolute;
+	top: 30px;
+	left: 20px;	
+}
+@font-face {
+    font-family: 'DS Sofachrome'; /* Гарнитура шрифта */
+    src: url(../fonts/dssofa.ttf); /* Путь к файлу со шрифтом */
+   }
+.portfolio {
+	width: 302px;
+	height: 21px;
+	color: #ffffff;
+	font-size: 19px;
+	font-family: 'DS Sofachrome';
+	position: absolute;
+	top: 52px;
+	left: 15px;
+}
+.edge {
+	width: 127px;
+	height: 17px;
+	color: #ffffff;
+	font-family: "DS Sofachrome";
+	font-size: 15px;
+	position: absolute;
+	top: 68px;
+	left: 140px;
+}
+@font-face {
+	font-family: "cyr_Beast vs SpreadTall";
+	src: url(../fonts/beast.ttf);
+}
+.startgame {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 201px;
+	left: 0px;
+	padding-left: 20px;
+}
+
+.startgame:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.options {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 240px;
+	left: 0px;
+	padding-left: 20px;
+}
+.options:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+
+.exit {
+	width: 287px;
+	height: 32px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 28px;
+	font-weight: 400;
+	position: absolute;
+	top: 280px;
+	left: 0px;
+	padding-left: 20px;
+}
+.exit:hover {
+	color: red;
+	background-color: white; 
+	cursor: pointer;
+
+}
+.RIGHTS {
+	width: 220px;
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	top: 570px;
+	left: 10px;
+}
+}
+
+
 

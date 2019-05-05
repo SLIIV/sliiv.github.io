@@ -38,3 +38,16 @@
 	background-color: black;
 	border: none;
 }
+.story_1 {
+	color: #ffffff;
+	font-family: "cyr_Beast vs SpreadTall";
+	font-size: 60px;
+	font-weight: 400;
+	text-transform: uppercase;
+	position: absolute;
+	left: 278px;
+	top: 808px;	
+}
+.story_1:hover {
+	cursor: pointer;
+}

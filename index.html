@@ -1,32 +1,108 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>EXTRA PORTFOLIO</title>
-	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link rel="stylesheet" type="text/css" href="fonts/DS Sofschrome">
-	<script type="text/javascript">
-		function onClick() {
-			alert('so... this button dont working too...')
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Поиск и подбор туроператоров онлайн</title>
+	<style>
+		body {
+			background: url(index/Background.png);
+			background-size: cover;
+    		background-position: top center;
+    		margin: 0;
 		}
-	</script>
+
+		header {
+			background: url(index/HeaderBack.png) repeat-x;
+			height: 322px;
+			width: 100%;
+			background-size: cover;
+    		background-position: top center;
+		}
+
+		.headerTitle
+		{
+			text-align: center;
+			padding-top: 50px;
+			font-size: 47px;
+			color: white;
+			font-family: Dela;
+		}
+		@font-face
+		{
+			font-family: Dela;
+			src: url(Fonts/Dela.ttf);
+		}
+
+		.headerHellotext
+		{
+			text-align: center;
+			padding-top: 20px;
+			font-size: 20px;
+			color: white;
+			font-family: Dela;
+		}
+
+		TD
+		{
+			padding-top: 10px;
+			width: 200px;
+			text-align: center;
+			font-size: 20px;
+		}
+		TABLE
+		{
+			margin: auto;
+		}
+		
+		a
+		{
+			color: white;
+			text-decoration: none;
+			font-family: Dela;
+		}
+		a:visited
+		{
+			color: white;
+			text-decoration: none;
+		}
+		a:active
+		{
+			color: white;
+			text-decoration: none;
+		}
+
+		.Text
+		{
+			padding-top: 20px;
+			padding-left: 20px;
+			font-size: 18px;
+			font-family: Dela;
+			color: white;
+		}
+
+
+	</style>
 </head>
-<body class="bodka">
-	<img src="images/red_back.png" class = "red_back">
-	<img src="images/top_red_back.png" class = "top_red_back">
-	<img src="images/EXTRA.png" class = "extra">
-	<div class = portfolio>portfolio</div>
-	<div class = edge>edge</div>
+<body>
+	<header>
+		<table>
+			<tr>
+				<td><a href="">Главная</a></td>
+				<td><a href="Tours/index.html">Заказать билет</td>
+				<td><a href="Register/index.html">Регистрация</td>
+			</tr>
+		</table>
+		<div class="headerTitle">
+			Онлайн туры по всему миру
+		</div>
+		<div class="headerHellotext">
+			Поиск туров по всем туроператорам онлайн. <br>
+			Купить тур легче, чем вы думаете.
+		</div>
 
-	<!--Left Menu changer-->
-	<a href = "startgame/index.html"><div class="startgame">start game</div></a>
+	</header>
 
-	<div class="options" onclick="onClick()">options</div>
-
-
-	<div class="exit" id="exit" onclick='alert("Im sorry, but you cant exit from this site :D")'>exit</div>
-
-	<!--down writting-->
-	<div class = "RIGHTS">©THIS PAGE CREATED BY VLAD_PROGRESS
-		ALL RIGHTS REVINTED</div>
+	<div class="Text">Закажите свой лучший тур прямо сейчас!</div>
 </body>
 </html>
